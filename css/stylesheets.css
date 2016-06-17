@@ -14,6 +14,10 @@ body {
   display: none;
 }
 
+#wizard-hidden {
+  text-align: center;
+}
+
 #float {
   float: left;
   margin: 20px;
