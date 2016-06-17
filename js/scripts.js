@@ -18,3 +18,13 @@ $(document).ready(function(event) {
   $("#block2-hidden").toggle();
   });
 });
+
+$(document).ready(function(event) {
+  $("form#questions").submit(function(event) {
+    var q1 = parseInt($("select#qts1").val());
+    var q2 = parseInt($("select#qts2").val());
+    var q3 = parseInt($("select#qts3").val());
+    var q4 = parseInt($("select#qts4").val());
+
+  });
+});
