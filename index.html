@@ -11,11 +11,16 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Welcome to Wizards Travel</h1>
-        <h4>Push the button to call the Wizard</h4>
-      </div>
       <div>
-        <img id="float" src="images/wizard.jpg" alt="funny wizard" height="250px" width="300px">
-        <p>Meet the Harry Pothead; our master prognosticator of your future vacation travels.  He will be using his powerful mystical seer abilities to pick yur perfect vacation local.  Please tell him your name; he may be a wizard; but he ain't psychic!</p>
+        <div id="wizard-hidden">
+          <h4>Push the button to call the Wizard</h4>
+          <button type="button" class="btn btn-primary btn-lg">SUMMON THE WIZARD!</button>
+
+        </div>
+        <div id="wizard-showing">
+          <img id="float" src="images/wizard.jpg" alt="funny wizard" height="250px" width="300px">
+          <p id="size">Meet the Wizard; Harry Pothead; our master prognosticator of your future vacation travels.  He will be using his powerful mystical seer abilities to pick your perfect vacation local.  Please tell him your name; he may be a wizard; but he ain't psychic!</p>
+        </div>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

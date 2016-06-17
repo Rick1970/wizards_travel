@@ -10,7 +10,15 @@ body {
   color: #291528;
 }
 
+#wizard-showing {
+  display: none;
+}
+
 #float {
   float: left;
   margin: 20px;
+}
+
+#size {
+  font-size: 2em;
 }
