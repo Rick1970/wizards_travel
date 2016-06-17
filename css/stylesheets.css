@@ -6,4 +6,11 @@
 
 body {
   background-color: #54577C;
+  font-family: lobster two;
+  color: #291528;
+}
+
+#float {
+  float: left;
+  margin: 20px;
 }
