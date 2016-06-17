@@ -7,22 +7,14 @@ $(document).ready(function() {
 
 $(document).ready(function(event) {
   $("form#get-name").submit(function(event) {
-    var name = $("input#name").val();
-    event.preventDefault();
-    });
+  var name = $("input#name").val();
+  $("#nameout").empty().append(name);
+  event.preventDefault();
+  });
 });
-
-$(document).ready(function() {
+$(document).ready(function(event) {
   $(".clickable2").click(function() {
   $("#block2-showing").toggle();
   $("#block2-hidden").toggle();
-
-    event.preventDefault();
-
   });
-
-
-
-
-
 });
