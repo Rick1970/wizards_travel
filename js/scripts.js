@@ -25,19 +25,18 @@ $(document).ready(function(event) {
     var q2 = parseInt($("select#qts2").val());
     var q3 = parseInt($("select#qts3").val());
     var q4 = parseInt($("select#qts4").val());
-    var rome = ("http://www.aviewoncities.com/rome/romeattractions.html");
     var result = (q1 + q2 + q3 + q4);
-    alert(result);
-    alert(rome);
+    
     if (result <= 5) {
-      $(location).attr('href','http://www.aviewoncities.com/rome/romeattractions.html');
+      $(location).attr('href','http://www.italyguides.it/en/lazio/rome/travel-guides/travel-tips/rome-in-a-nutshell');
+      return false;
 
     } else if (result === 6) {
-      $(location).attr('href','http://www.aviewoncities.com/rome/romeattractions.html');
-
+      $(location).attr('href','https://www.anywherecostarica.com/travel-guide');
+      return false;
     } else {
-      $(location).attr('href','http://www.aviewoncities.com/rome/romeattractions.html');
-
+      $(location).attr('href','http://www.nomadicmatt.com/travel-guides/thailand-travel-tips/');
+      return false;
     }
     event.preventDefault();
 
