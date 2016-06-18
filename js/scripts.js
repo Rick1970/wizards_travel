@@ -9,6 +9,8 @@ $(document).ready(function(event) {
   $("form#get-name").submit(function(event) {
   var name = $("input#name").val();
   $("#nameout").empty().append(name);
+  $("#nameout2").empty().append(name);
+  $("#nameout3").empty().append(name);
   event.preventDefault();
   });
 });
@@ -26,7 +28,7 @@ $(document).ready(function(event) {
     var q3 = parseInt($("select#qts3").val());
     var q4 = parseInt($("select#qts4").val());
     var result = (q1 + q2 + q3 + q4);
-    
+
     if (result <= 5) {
       $(location).attr('href','http://www.italyguides.it/en/lazio/rome/travel-guides/travel-tips/rome-in-a-nutshell');
       return false;
