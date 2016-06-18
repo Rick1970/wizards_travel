@@ -23,7 +23,7 @@
           <div id="block2-hidden">
 
             <form id="get-name">
-              <label for="name">What is your name?</label>
+              <label id="change" for="name">What is your name?</label>
               <input id="name" class="form" type="text">
               <button type="submit" class="btn btn-primary btn-lg clickable2">Help a wizard out</button>
             </form>
@@ -32,7 +32,7 @@
           <br>
           <div id="block2-showing">
             <p id="size">Hello, and welcome <span id="nameout"></span>!  Thanks for helping me out.  I am pretty good seeing peoples futures; but I am terrible with names.  Selectively psychic I guess.</p>
-            <p id="size">I will need a little more help from you, <span id="nameout2"></span>.  Its simple really.  I am going to ask you 3 destination questions; and then a special fourth question that allows me to  peer into the fabric of the universe to discern your traveling future.
+            <p id="size">I will need a little more help from you, <span id="nameout2"></span>.  Its simple really.  I am going to ask you three destination questions; and then a special fourth question that allows me to  peer into the fabric of the universe to discern your traveling future.
             </p>
             <br>
             <br>
@@ -41,7 +41,7 @@
             <br>
 
             <form id="questions">
-              <label for="qts1">Do you prefer?</label>
+              <label id="change" for="qts1">Do you prefer?</label>
               <select id="qts1">
                 <option value="1">Big city hustle and bussel?</option>
                 <option value="2">Solitude and isolation?</option>
@@ -49,7 +49,7 @@
               <br>
               <br>
 
-              <label for="qts2">Do you prefer?</label>
+              <label id="change" for="qts2">Do you prefer?</label>
                 <select id="qts2">
                   <option value="1">Tropical?</option>
                   <option value="2">Temperate?</option>
@@ -58,7 +58,7 @@
               <br>
               <br>
 
-              <label for="qts3">Do you prefer?</label>
+              <label id="change" for="qts3">Do you prefer?</label>
                 <select id="qts3">
                   <option value="1">Five star accomadations?</option>
                   <option value="2">Simple is better?</option>
@@ -66,10 +66,11 @@
 
               <br>
               <br>
-              <p id="size">The last question is special.  It allows the wizard to peer into the fabric of the universe and use his powers of seership to determine what the universe feels is your best vacation choice</p>
+              <div id="change">
+                <p id="size">The last question is special.  It allows the wizard to peer into the fabric of the universe and use his powers of seership to determine what the universe feels is your best vacation choice</p>
+              </div>
 
-
-              <label for="qts4">Which tarot card are you drawn too?</label>
+              <label id="change" for="qts4">Which tarot card are you drawn too?</label>
                 <select id="qts4">
                   <option value="1">The world card?</option>
                   <option value="2">The lovers card?</option>
@@ -77,9 +78,10 @@
 
               <br>
               <br>
-              <h2> Ok <span id="nameout3"></span>, now for the moment of truth!! When you click the seers results button, away you go to the premier website for the destination that the seer has deemed your perfect match!</h2>
-
-              <h2>Thank you for visiting wizards travel!!</h2>
+              <div id="change">
+                <h2> Ok <span id="nameout3"></span>, now for the moment of truth!! When you click the seers results button, away you go to the premier website for the destination that the seer has deemed your perfect match!</h2>
+                <h2>Thank you for visiting wizards travel!!</h2>
+              </div>
               <button type="submit" class="btn btn-primary btn-lg clickable3">Seer's Results</button>
             </form>
 

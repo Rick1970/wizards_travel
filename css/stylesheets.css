@@ -2,12 +2,14 @@
   text-align: center;
   background-color: #E2CAED;
   margin-top: 20px;
+  color: #291528;
 }
 
 body {
   background-color: #54577C;
   font-family: lobster two;
   color: #291528;
+  color: #82D173;
 }
 
 #wizard-showing {
@@ -30,4 +32,12 @@ body {
 
 #size {
   font-size: 2em;
+}
+
+#get-name, #questions {
+  color: #291528;
+}
+
+#change {
+  color: #82D173;
 }
