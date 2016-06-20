@@ -1,4 +1,4 @@
-# _Wizards Travel: Your Vacation Soothsayer_
+# _Wizards Travel: Your Vacation Soothsayer (https://rick1970.github.io/wizards_travel/)_
 
 #### _Rick Thornbrughs wizards_travel_ 06/17/16_
 
@@ -10,7 +10,7 @@ _A fun website that calls our travel wizard, who then ask a series of questions,
 
 ## Setup/Installation Requirements
 
-* _Clone a copy onto your computer, then open with text editor to access the code.  The application is run in the browser._
+* _Clone a copy onto your computer (https://github.com/Rick1970/wizards_travel), then open with text editor to access the code.  The application is run in the browser._
 
 
 ## Known Bugs
